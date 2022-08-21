@@ -24,7 +24,7 @@ public class Employee  implements Serializable
 	private double salary;
 	@ManyToOne(cascade=CascadeType.ALL)
 	@JoinColumn(name="Department_ID")
-	private Department dept;
+	private Address dept;
 	public int getId() {
 		return id;
 	}
@@ -43,10 +43,10 @@ public class Employee  implements Serializable
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	public Department getDept() {
+	public Address getDept() {
 		return dept;
 	}
-	public void setDept(Department dept) {
+	public void setDept(Address dept) {
 		this.dept = dept;
 	}
 	

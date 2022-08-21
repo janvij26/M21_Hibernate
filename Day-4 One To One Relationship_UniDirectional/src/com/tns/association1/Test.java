@@ -12,11 +12,11 @@ public class Test {
 		em.getTransaction().begin();
 		
 		//create a new department
-		Department dept=new Department();
+		Address dept=new Address();
 		dept.setId(1);
 		dept.setName("Sales");
 		
-		Department dept1=new Department();
+		Address dept1=new Address();
 		dept1.setId(2);
 		dept1.setName("Finance");
 		

@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
 @Table(name="department")
-public class Department 
+public class Address 
 {
 	@Id
 	
